@@ -36,12 +36,11 @@ function startCountdown() {
       count--;
 
       if (count < 0) {
-        clearInterval(countdownInterval); // Para a contagem regressiva
-        countdownElement.style.display = 'none'; // Esconde o contador
-        contentElement.style.display = 'block'; // Mostra o conteúdo
+        clearInterval(countdownInterval);
+        countdownElement.style.display = 'none';
+        contentElement.style.display = 'block';
       }
-    }, 1000); // Atualiza a cada segundo
+    }, 1000);
   }
 
-  // Inicia a contagem regressiva quando a página carrega
   window.onload = startCountdown;

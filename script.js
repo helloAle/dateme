@@ -25,23 +25,22 @@ buttonClose.onclick = function () {
     modal.close()
 }
 
-
 // Função para iniciar a contagem regressiva
-// function startCountdown() {
-//     var countdownElement = document.getElementById('countdown');
-//     var contentElement = document.getElementById('content');
-//     var count = 9;
+function startCountdown() {
+    var countdownElement = document.getElementById('countdown');
+    var contentElement = document.getElementById('content');
+    var count = 19;
     
-//     var countdownInterval = setInterval(function() {
-//       countdownElement.textContent = count;
-//       count--;
+    var countdownInterval = setInterval(function() {
+      countdownElement.textContent = count;
+      count--;
 
-//       if (count < 0) {
-//         clearInterval(countdownInterval);
-//         countdownElement.style.display = 'none';
-//         contentElement.style.display = 'block';
-//       }
-//     }, 1000);
-//   }
+      if (count < 0) {
+        clearInterval(countdownInterval);
+        countdownElement.style.display = 'none';
+        contentElement.style.display = 'block';
+      }
+    }, 1000);
+  }
 
-//   window.onload = startCountdown;
+  window.onload = startCountdown;

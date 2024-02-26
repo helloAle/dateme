@@ -58,16 +58,17 @@ dialog::backdrop{
 }
 
 audio{
+    margin: -5% 39%;
     position: fixed;
 }
 
-/* #countdown {
+#countdown {
   font-size: 100px;
-  margin-top: 100px;
+  margin-top: 20%;
   justify-content: center;
   text-align: center;
 }
 #content {
   display: none;
   margin-top: 50px;
-} */
+}

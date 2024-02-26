@@ -7,6 +7,7 @@ body{
     background-color: rgb(254, 233, 233);
     font-family: 'Doctor Who', sans-serif;
 }
+
 .painel{
     margin: auto;
     margin-top: 7%;
@@ -37,6 +38,7 @@ body{
 
 
 #nao{
+    transition: all 0.2s;
     position: absolute;
     height: 40px;
     width: 60px;
@@ -54,7 +56,7 @@ img{
 /*//////////////////////////////// popup //////////////////////////////// */
 
 dialog::backdrop{
-    background-color: #90596b;
+    background-color: rgba(89, 25, 168, 0.2);
 }
 
 audio{
@@ -72,3 +74,4 @@ audio{
   display: none;
   margin-top: 50px;
 }
+

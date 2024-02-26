@@ -25,6 +25,7 @@ buttonClose.onclick = function () {
     modal.close()
 }
 
+
 // Função para iniciar a contagem regressiva
 // function startCountdown() {
 //     var countdownElement = document.getElementById('countdown');
